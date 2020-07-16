@@ -60,4 +60,8 @@ public class AutorBean {
 	public void setAutor(Autor autor) {
 		this.autor = autor;
 	}
+	
+	public String getNome(Autor autor) {
+		return autor.getNome();
+	}
 }
